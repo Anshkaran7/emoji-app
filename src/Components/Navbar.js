@@ -1,5 +1,5 @@
 import '../App.css';
-import logo from '../Images/logo.jpg';
+import logo from '../Images/logo.png';
 
 const Navbar = () => {
   return (
@@ -7,9 +7,7 @@ const Navbar = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
         <div className="container">
-          <button className="navbar-brand" href="#">
-            <img src={logo} height="40px" alt="logo" />
-          </button>
+        <img src={logo} height="60px" alt="logo" />
           <div id="navbarText">
             <ul className="navbar-nav me-auto mb-2 ">
               <li className="nav-item">
@@ -59,7 +57,7 @@ const Navbar = () => {
               In this emoji search app, you can search any emoji which is
               available. There is an another feature in this app where you can
               simply copy an emoji of your choice to your clipboard.
-              <h4 className="pt-3">Developed with ❤️ by Karan Chandekar.</h4>
+              <h4 className="pt-3">Developed with ❤️ by Karan.</h4>
             </div>
             <div className="modal-footer">
               <button

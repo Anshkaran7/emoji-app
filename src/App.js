@@ -24,7 +24,7 @@ function App() {
     <React.Fragment>
       <Navbar />
       <div className="container ">
-        <h1 className="heading  pb-5">🦄 Emoji Search App</h1>
+        <h1 className="heading  pb-5"> 🐶 Emoji Search App</h1>
 
         {/* Search Bar */}
         <div className="col-md-6 mb-4 mx-auto">
@@ -58,7 +58,7 @@ function App() {
             .map((el) => {
               return (
                 <div
-                  className="card emojiCard  m-3   card-columns mx-auto d-flex justify-content-center "
+                  className="card emojiCard  m-3  card-columns mx-auto d-flex justify-content-center "
                   data-toggle="tooltip"
                   data-placement="bottom"
                   title="Click here to Copy"

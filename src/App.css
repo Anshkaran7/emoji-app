@@ -1,25 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .navbar {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
-  background-color: rgb(39, 37, 37);
+  box-shadow: 0 0 5px rgb(68, 68, 70);
 }
 
 .navbar-nav,
 .nav-item {
   display: inline-block;
 }
+img{
+  cursor: pointer;
+}
 
 .nav-link {
   cursor: pointer;
-  color: white !important;
+  font-size: 18px;
+  transition: 0.26s;
+  color: rgb(5, 44, 89) !important;
+  text-decoration: 2px underline !important;
 }
-
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #de4379 !important;
+}
 .nav-item {
   margin: 5px;
 }
 
 .aboutLink {
-  color: rgb(163, 163, 163) !important;
+  color: rgb(5, 44, 89) !important;
+  text-decoration: none !important;
 }
 
 .aboutLink:active {
@@ -28,20 +37,24 @@
 
 .modal-body {
   text-align: justify;
+  font-family: "Montserrat", sans-serif;
 }
 
 .heading {
   text-align: center;
   color: white;
-  margin-top: 2.5em;
+  margin-top: 3.4em;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card {
   cursor: pointer;
-  border-radius: 8px 8px 8px 8px;
+  border-radius:  8px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
-  background-color: rgb(39, 37, 37) !important;
+  background-color: #d52c81 !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 .emojiCard {
@@ -49,8 +62,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 170px;
-  height: 170px;
+  width: 140px;
+  height: 140px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .emojiCard:active {
@@ -64,20 +78,21 @@
 }
 
 input {
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
   box-shadow: none !important;
   outline: none !important;
-  color: white !important;
-  border-radius: none !important;
-  border-bottom-color: white !important;
-  background-color: rgb(0, 0, 0) !important;
+  font-family: "Montserrat", sans-serif;
+ 
+  border-radius: 7px !important;
+  
+  background-color: white !important;
 }
 
 .input-group-text {
-  background-color: black !important;
+  background-color: transparent !important;
+  border-radius: 20px;
   border: none;
+  height: 2.4rem;
+  margin-right: 0.3rem;
 }
 
 .noMatches {
@@ -85,7 +100,8 @@ input {
 }
 
 i {
-  color: white;
+  color: black;
+  border-radius: 7px;
 }
 
 p {
@@ -94,6 +110,7 @@ p {
   z-index: 1;
   bottom: 0px;
   left: 4px;
+  font-family: "Montserrat", sans-serif;
   padding: 4px !important;
   border-radius: 5px 5px 5px 5px;
   font-weight: bolder;
